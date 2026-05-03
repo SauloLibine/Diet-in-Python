@@ -126,10 +126,3 @@ docker-compose up -d
 
 - A senha de usuário é armazenada como hash usando `bcrypt`.
 - As roles estão definidas em `models/user.py`; o valor padrão é `user`.
-- Em produção, remova segredos e use variáveis de ambiente para banco de dados e chave secreta.
-
-## Melhoria sugerida
-
-- adicionar variáveis de ambiente para conexão com o banco
-- criar endpoints de listagem de usuários e roles
-- implementar testes automatizados
